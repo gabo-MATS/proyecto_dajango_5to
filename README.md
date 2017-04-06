@@ -1,1 +1,0 @@
-# proyecto_dajango_5to
