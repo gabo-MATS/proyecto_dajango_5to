@@ -20,4 +20,3 @@ class ruido(models.Model):
 
 class Mascota(models.Model):
 	carisma = models.Charfield(max_length=100)
-
