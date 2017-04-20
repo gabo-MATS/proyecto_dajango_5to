@@ -1,22 +1,22 @@
 from django.db import models
 #Models Animals
 class Precio(models.Model):
-	precio = models.Charfield(max_length=100)
+	precio = models.IntegerField(default=0)
 
 class Tamano(models.Model):
-	tamano = models.Charfield(max_length=100)
+	tamano = models.IntegerField(default=0)
 
 class Mantenimiento(models.Model):
-	mantenimiento = models.Charfield(max_length=100)
+	mantenimiento = models.CharField(max_length=100)
 
 class Vida(models.Model):
-	vida = models.Charfield(max_length=100)
+	vida = models.CharField(max_length=100)
 
 class Convivencia(models.Model):
-	convivencia = models.Charfield(max_length=100)
+	convivencia = models.CharField(max_length=100)
 
 class Ruido(models.Model):
-	ruido = models.Charfield(max_length=100)	
+	ruido = models.CharField(max_length=100)	
 
 class Carisma(models.Model):
-	carisma = models.Charfield(max_length=100)
+	carisma = models.CharField(max_length=100)
