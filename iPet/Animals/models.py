@@ -1,22 +1,22 @@
 from django.db import models
 #Models Animals
-class precio(models.Model):
+class Precio(models.Model):
 	precio = models.Charfield(max_length=100)
 
-class tamano(models.Model):
+class Tamano(models.Model):
 	tamano = models.Charfield(max_length=100)
 
-class mantenimiento(models.Model):
+class Mantenimiento(models.Model):
 	mantenimiento = models.Charfield(max_length=100)
 
-class vida(models.Model):
+class Vida(models.Model):
 	vida = models.Charfield(max_length=100)
 
-class convivencia(models.Model):
+class Convivencia(models.Model):
 	convivencia = models.Charfield(max_length=100)
 
-class ruido(models.Model):
+class Ruido(models.Model):
 	ruido = models.Charfield(max_length=100)	
 
-class Mascota(models.Model):
+class Carisma(models.Model):
 	carisma = models.Charfield(max_length=100)
