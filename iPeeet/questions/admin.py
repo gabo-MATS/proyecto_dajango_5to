@@ -1,5 +1,5 @@
 from django.contrib import admin
-class Questions(admin.ModelAdmin):
-    pass
-admin.site.register(Author, Questions)
-# Register your models here.
+from myproject.myapp.models import Author
+
+admin.site.register(Author)
+#https://docs.djangoproject.com/en/1.11/ref/contrib/admin/

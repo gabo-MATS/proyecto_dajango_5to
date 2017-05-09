@@ -9,6 +9,7 @@ class Animals (models.Model):
 	time = models.ForeignKey(Time)
 	noise = models.ForeignKey(Noise)
 	rare = models.ForeignKey(Rarity)
+	
 class Size(models.Model):
 	size = models.CharField(max_length=20)
 
