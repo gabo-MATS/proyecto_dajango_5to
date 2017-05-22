@@ -39,5 +39,5 @@ var square = document.getElementById("square");
 var btnAnimar = document.getElementById("animar");
 
 btnAnimar.onclick = function(){
-	square.classList.add=("open");
+	square.classList.add("open");
 }
