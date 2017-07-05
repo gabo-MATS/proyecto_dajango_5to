@@ -9,14 +9,40 @@
 	width: 200px;
 	position: fixed;
 }
-.collage {
-	height:4000px; 
-	width:5000px;
-	left:;
-	top:;
+.boton2{
+	border-radius: 10px ;
+	height: 40px;
+	width: 200px;
+	position: fixed;
+	left:220px;
 }
-.button {
+.boton3{
+	border-radius: 10px ;
+	height: 40px;
+	width: 200px;
+	position: fixed;
+	left:440px;
+}
+.boton4{
+	border-radius: 10px ;
+	height: 40px;
+	width: 200px;
+	position: fixed;
+	left:660px;
+}
+.collage {
+	position: fixed;
+	
 
+}
+.botonstart {
+	height: 30px;
+	width: 100px;
+	border-radius: 4px;
+	position: absolute;
+	top: 500px;
+	right: 670px;
+	background-color: #4CAF50;
 }
 .txt1{
 	position: absolute;
