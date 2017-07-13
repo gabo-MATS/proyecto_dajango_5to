@@ -1,0 +1,22 @@
+.username{
+e
+}
+.user{
+
+}
+.pass{
+
+}
+.password{
+
+}
+.contenedor{
+
+	background-color: red;
+	display: flex;
+	align-items: center;
+	height:600px;
+	width:600px;
+	left: 500px;
+
+}
