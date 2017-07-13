@@ -1,6 +1,9 @@
 .ipet{
 	top:40px;
+	font-size:150px;
 	position: absolute;
+	left: 500px;
+	color: #4CAF50;
 }
 
 .boton1{
