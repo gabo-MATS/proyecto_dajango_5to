@@ -3,6 +3,7 @@
 	height: 40px;
 	width: 200px;
 	position: fixed;
+	top: 1px;
 }
 .username{
 
@@ -17,12 +18,35 @@
 
 }
 .contenedor{
-
-	background-color: red;
+	color: black;
+	font-size: 50px;
 	display: flex;
-	align-items: center;
-	height:600px;
-	width:600px;
+	text-align: center;
+	width: 250px;
+	height: 20px;
 	left: 500px;
+	top: 200px;
+	position: relative;
+
+}
+.icontenedor{
+	color: black;
+	font-size: 20px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	width: 250px;
+	height: 20px;
+	left: 500px;
+	top: 200px;
+	position: relative;
+
+}
+
+.collage {
+	width: 1400px;
+	height: 700px;
+	position: fixed;
+	top: 1px;
 
 }
